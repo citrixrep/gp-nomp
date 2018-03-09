@@ -170,6 +170,9 @@ module.exports = function(logger){
         }
 
         var authorizeFN = function (ip, port, workerName, password, callback) {
+            if (workerName.indexOf('.') !== -1) {
+                workerName = workerName.split('.')[0];
+            }
             handlers.auth(port, workerName, password, function(authorized){
 
                 var authString = authorized ? 'Authorized' : 'Unauthorized ';

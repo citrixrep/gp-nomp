@@ -557,6 +557,9 @@ function SetupForPool(logger, poolOptions, setupFinished) {
 
 
     var getProperAddress = function (address) {
+        if (address.indexOf('.') !== -1) {
+            address = address.split('.')[0];
+        }
         if (address.length === 40) {
             return util.addressFromEx(poolOptions.address, address);
         }
