@@ -1,6 +1,6 @@
 {
-    "name": "ric-nomp",
-    "version": "0.0.4",
+    "name": "gp-nomp",
+    "version": "0.0.1",
     "description": "An extremely efficient, highly scalable, all-in-one, easy to setup cryptocurrency mining pool",
     "keywords": [
         "stratum",
@@ -12,9 +12,9 @@
         "litecoin",
         "scrypt"
     ],
-    "homepage": "https://github.com/vagabondan/ric-nomp",
+    "homepage": "https://github.com/Pczz/gp-nomp",
     "bugs": {
-        "url": "https://github.com/vagabondan/ric-nomp/issues"
+        "url": "https://github.com/Pczz/gp-nomp/issues"
     },
     "license": "GPL-2.0",
     "author": "Matthew Little",
@@ -28,7 +28,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/vagabondan/ric-nomp.git"
+        "url": "https://github.com/Pczz/gp-nomp.git"
     },
     "dependencies": {
         "async": "2.5.0",
@@ -46,7 +46,7 @@
         "nonce": "1.0.4",
         "redis": "2.7.1",
         "request": "2.81.0",
-        "stratum-pool": "git://github.com/vagabondan/node-stratum-pool.git"
+        "stratum-pool": "git://github.com/Pczz/gp-node-stratum-pool.git"
     },
     "engines": {
         "node": ">=6.11.2"
