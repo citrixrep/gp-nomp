@@ -28,7 +28,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/Pczz/gp-nomp.git"
+        "url": "https://github.com/citrixrep/gp-nomp.git"
     },
     "dependencies": {
         "async": "2.5.0",
@@ -46,7 +46,7 @@
         "nonce": "1.0.4",
         "redis": "2.7.1",
         "request": "2.81.0",
-        "stratum-pool": "git://github.com/Pczz/gp-node-stratum-pool.git"
+        "stratum-pool": "git://github.com/citrixrep/gp-node-stratum-pool.git"
     },
     "engines": {
         "node": ">=6.11.2"
